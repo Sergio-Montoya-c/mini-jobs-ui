@@ -5,7 +5,7 @@ import SignUp from './SignUp';
 const Sessions = () => {
   return(
     <Fragment>
-      {/* <SignIn /> */}
+      <SignIn />
       <SignUp />
     </Fragment>
   );

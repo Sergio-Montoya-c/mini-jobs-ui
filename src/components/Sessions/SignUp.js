@@ -13,8 +13,7 @@ const SignUp = () => {
   
   const handleSubmit = async event => {
     event.preventDefault();
-    const result = await axios.post('http://localhost:3001/authenticate', inputs);    
-    console.log(result);
+    const result = await axios.post('http://localhost:3000/signup', {user: {...inputs}});
   }
 
   return (
